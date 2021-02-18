@@ -1,0 +1,80 @@
+body{
+    background-color: cornflowerblue;
+}
+.gameBox{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 1% auto;
+    padding: 10px;
+    border: 4px solid black;
+    text-align: center;
+}
+.getNotes{
+    width: 100px;
+    height: 60px;
+    background-color: none;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+#answer{
+    width: 30px;
+    height: 40px;
+    margin: 40px auto;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.score{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: -60px;
+    padding: 2px;
+}
+#index{
+    margin:5px auto;
+}
+#getAnswer{
+    margin: 20% auto;
+    width: 100px;
+    border-radius: 2px;
+}
+.RevealAnswer {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  padding: 10px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* height: 100px; */
+}
+
+#explanation0, #explanation1, #explanation2, #explanation3, #explanation4, #explanation5, #explanation6, #explanation7, #explanation8, #explanation9, #explanation10, #explanation11 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 30px;
+}
+#id0, #id1, #id2, #id3, #id4, #id5, #id6, #id7, #id8, #id9, #id10, #id11{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.finalAnswerScore{
+    width: 100px;
+    height: 100px;
+    margin: -500px auto;
+    margin-right: 290px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}

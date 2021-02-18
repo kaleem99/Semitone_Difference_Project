@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semitone Game</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body onload="buddy.selectNotes();">
+    <div class="RevealAnswer">
+        <div id="explanation0"></div>
+        <div id="explanation1"></div>
+        <div id="explanation2"></div>  
+        <div id="explanation3"></div>
+        <div id="explanation4"></div>
+        <div id="explanation5"></div>  
+        <div id="explanation6"></div>
+        <div id="explanation7"></div>
+        <div id="explanation8"></div>
+        <div id="explanation9"></div>  
+        <div id="explanation10"></div>  
+        <div id="explanation11"></div>  
+        <div id="id0">1</div>
+        <div id="id1">2</div>
+        <div id="id2">3</div>  
+        <div id="id3">4</div>
+        <div id="id4">5</div>
+        <div id="id5">6</div>  
+        <div id="id6">7</div>
+        <div id="id7">8</div>
+        <div id="id8">9</div>
+        <div id="id9">10</div>  
+        <div id="id10">11</div>  
+        <div id="id11">12</div>      
+    </div>
+
+    <div class="gameBox">
+        <h3>Score Streak</h3>
+        <div class="score">
+            <h2 id="index">0</h2>
+        </div>
+        <div class="getNotes">
+            <h1 id="text"></h1>
+            <br>
+
+        </div>
+        <button id="btn">Get random notes</button>
+        <h2 id= "true/false">Please enter your answer below</h2>
+        <input type="text" id="answer" size="1">
+        <br>
+        <button id="submit">Submit answer</button>
+        <br>
+        <button id="getAnswer">Reveal Answer</button>
+    </div>
+    	<div class="finalAnswerScore">
+            <h2>Answer</h2>
+            <h1 id="finalAnswer"></h1>
+        </div>
+<!-- <script src="./src/jamBuddy.js"></script> -->
+<script src="./bundledFile/bundle.js"></script>
+
+</body>
+</html>
